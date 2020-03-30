@@ -1,0 +1,21 @@
+genome_analysis_paper_4
+├── analyses
+│   ├── 1_assembly
+│   │   ├── 1_1_reads_quality_control
+│   │   ├── 1_2_reads_preprocessing
+│   │   └── 1_3_metagenome_assembly
+│   ├── 2_binning
+│   │   ├── 2_1_assembly_evaluation
+│   │   └── 2_2_binning
+│   ├── 3_binning_assessment_annotation
+│   │   ├── 3_1_binning_evaluation
+│   │   └── 3_2_functional_annotation
+│   ├── 4_mapping
+│   └── 5_phylogeny
+├── code
+│   ├── code1.sh
+│   └── code2.sh
+└── data
+    ├── metadata
+    ├── raw_data
+    └── trimmed_data
