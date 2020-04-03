@@ -19,5 +19,3 @@ genome_analysis_paper_4
 │   ├── code1.sh
 │   └── code2.sh
 └── data
-    ├── raw_data
-    └── trimmed_data
