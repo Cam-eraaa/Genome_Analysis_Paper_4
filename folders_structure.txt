@@ -2,6 +2,8 @@ genome_analysis_paper_4
 ├── analyses
 │   ├── 1_assembly
 │   │   ├── 1_1_reads_quality_control
+|   │   │   ├── DNA_trimmed
+|   │   │   └── 
 │   │   ├── 1_2_reads_preprocessing
 │   │   └── 1_3_metagenome_assembly
 │   ├── 2_binning
