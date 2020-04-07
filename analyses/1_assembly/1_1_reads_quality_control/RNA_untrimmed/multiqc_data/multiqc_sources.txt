@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR4342137.1	/domus/h1/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_untrimmed/SRR4342137.1_fastqc/fastqc_data.txt
+FastQC	all_sections	SRR4342137.2	/domus/h1/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_untrimmed/SRR4342137.2_fastqc/fastqc_data.txt
+FastQC	all_sections	SRR4342139.1	/domus/h1/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_untrimmed/SRR4342139.1_fastqc/fastqc_data.txt
+FastQC	all_sections	SRR4342139.2	/domus/h1/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_untrimmed/SRR4342139.2_fastqc/fastqc_data.txt

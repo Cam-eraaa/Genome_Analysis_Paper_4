@@ -1,0 +1,123 @@
+[2020-04-07 16:36:35,087] multiqc                                            [DEBUG  ]  No MultiQC config found: /sw/bioinfo/MultiQC/1.8/rackham/lib/python3.6/site-packages/multiqc_config.yaml
+[2020-04-07 16:36:35,087] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/camil/.multiqc_config.yaml
+[2020-04-07 16:36:35,087] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2020-04-07 16:36:35,088] multiqc                                            [DEBUG  ]  Command used: /sw/bioinfo/MultiQC/1.8/rackham/bin/multiqc .
+[2020-04-07 16:36:36,655] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.8
+[2020-04-07 16:36:36,655] multiqc                                            [INFO   ]  This is MultiQC v1.8
+[2020-04-07 16:36:36,655] multiqc                                            [DEBUG  ]  Command     : /sw/bioinfo/MultiQC/1.8/rackham/bin/multiqc .
+[2020-04-07 16:36:36,656] multiqc                                            [DEBUG  ]  Working dir : /domus/h1/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_untrimmed
+[2020-04-07 16:36:36,656] multiqc                                            [INFO   ]  Template    : default
+[2020-04-07 16:36:36,656] multiqc                                            [DEBUG  ]  Running Python 3.6.8 (default, Mar 14 2019, 16:13:09)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+[2020-04-07 16:36:36,656] multiqc                                            [INFO   ]  Searching   : /domus/h1/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_untrimmed
+[2020-04-07 16:36:36,657] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dedup, damageprofiler, biobambam2, mtnucratio, picard, prokka, samblaster, samtools, sexdeterrmine, bamtools, jellyfish, vcftools, longranger, stacks, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, minionqc, mosdepth, clusterflow, bcl2fastq, interop, flash, seqyclean
+[2020-04-07 16:36:36,657] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /scratch/13242094/tmpq6g3wbun
+[2020-04-07 16:36:36,853] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR4342137.1_fastqc.html
+[2020-04-07 16:36:36,853] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR4342137.2_fastqc.html
+[2020-04-07 16:36:36,854] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR4342139.1_fastqc.html
+[2020-04-07 16:36:36,854] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR4342139.2_fastqc.html
+[2020-04-07 16:36:36,904] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastqc_report.html
+[2020-04-07 16:36:36,914] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2020-04-07 16:36:36,918] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2020-04-07 16:36:36,982] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastqc_report.html
+[2020-04-07 16:36:36,992] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2020-04-07 16:36:36,995] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2020-04-07 16:36:37,061] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastqc_report.html
+[2020-04-07 16:36:37,071] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2020-04-07 16:36:37,075] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2020-04-07 16:36:37,139] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastqc_report.html
+[2020-04-07 16:36:37,149] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2020-04-07 16:36:37,153] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2020-04-07 16:36:37,948] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.1.1
+[2020-04-07 16:36:37,951] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.1.1
+[2020-04-07 16:36:37,954] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2020-04-07 16:36:37,964] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2020-04-07 16:36:37,971] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2020-04-07 16:36:37,979] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2020-04-07 16:36:37,986] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2020-04-07 16:36:37,997] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2020-04-07 16:36:38,005] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2020-04-07 16:36:38,012] multiqc                                            [DEBUG  ]  No samples found: quast
+[2020-04-07 16:36:38,020] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2020-04-07 16:36:38,028] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2020-04-07 16:36:38,035] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2020-04-07 16:36:38,054] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2020-04-07 16:36:38,062] multiqc                                            [DEBUG  ]  No samples found: busco
+[2020-04-07 16:36:38,069] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2020-04-07 16:36:38,076] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2020-04-07 16:36:38,084] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2020-04-07 16:36:38,103] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2020-04-07 16:36:38,110] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2020-04-07 16:36:38,117] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2020-04-07 16:36:38,125] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2020-04-07 16:36:38,132] multiqc                                            [DEBUG  ]  No samples found: happy
+[2020-04-07 16:36:38,142] multiqc                                            [DEBUG  ]  No samples found: homer
+[2020-04-07 16:36:38,149] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2020-04-07 16:36:38,156] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2020-04-07 16:36:38,164] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2020-04-07 16:36:38,206] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2020-04-07 16:36:38,215] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2020-04-07 16:36:38,226] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2020-04-07 16:36:38,235] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2020-04-07 16:36:38,245] multiqc                                            [DEBUG  ]  No samples found: fgbio
+[2020-04-07 16:36:38,253] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2020-04-07 16:36:38,262] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2020-04-07 16:36:38,292] multiqc                                            [DEBUG  ]  No samples found: biobambam2
+[2020-04-07 16:36:38,300] multiqc                                            [DEBUG  ]  No samples found: mtnucratio
+[2020-04-07 16:36:38,303] multiqc                                            [DEBUG  ]  No samples found: picard
+[2020-04-07 16:36:38,310] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2020-04-07 16:36:38,318] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2020-04-07 16:36:38,330] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2020-04-07 16:36:38,339] multiqc                                            [DEBUG  ]  No samples found: sexdeterrmine
+[2020-04-07 16:36:38,350] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2020-04-07 16:36:38,357] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2020-04-07 16:36:38,369] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2020-04-07 16:36:38,377] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2020-04-07 16:36:38,384] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2020-04-07 16:36:38,407] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2020-04-07 16:36:38,415] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2020-04-07 16:36:38,424] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2020-04-07 16:36:38,432] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2020-04-07 16:36:38,439] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2020-04-07 16:36:38,447] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2020-04-07 16:36:38,455] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2020-04-07 16:36:38,463] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2020-04-07 16:36:38,471] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2020-04-07 16:36:38,478] multiqc                                            [DEBUG  ]  No samples found: star
+[2020-04-07 16:36:38,486] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2020-04-07 16:36:38,493] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2020-04-07 16:36:38,501] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2020-04-07 16:36:38,509] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2020-04-07 16:36:38,517] multiqc                                            [DEBUG  ]  No samples found: kat
+[2020-04-07 16:36:38,525] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2020-04-07 16:36:38,532] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2020-04-07 16:36:38,540] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2020-04-07 16:36:38,548] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2020-04-07 16:36:38,555] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2020-04-07 16:36:38,563] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2020-04-07 16:36:38,571] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2020-04-07 16:36:38,579] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2020-04-07 16:36:38,587] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2020-04-07 16:36:38,594] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2020-04-07 16:36:38,601] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2020-04-07 16:36:38,609] multiqc                                            [DEBUG  ]  No samples found: fastp
+[2020-04-07 16:36:38,709] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SRR4342137.1_fastqc.zip' as already parsed 'SRR4342137.1'
+[2020-04-07 16:36:38,709] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SRR4342137.2_fastqc.zip' as already parsed 'SRR4342137.2'
+[2020-04-07 16:36:38,709] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SRR4342139.1_fastqc.zip' as already parsed 'SRR4342139.1'
+[2020-04-07 16:36:38,709] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SRR4342139.2_fastqc.zip' as already parsed 'SRR4342139.2'
+[2020-04-07 16:36:38,710] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 4 reports
+[2020-04-07 16:36:38,798] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2020-04-07 16:36:38,806] multiqc                                            [DEBUG  ]  No samples found: mosdepth
+[2020-04-07 16:36:38,814] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2020-04-07 16:36:38,822] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2020-04-07 16:36:38,830] multiqc                                            [DEBUG  ]  No samples found: interop
+[2020-04-07 16:36:38,837] multiqc                                            [DEBUG  ]  No samples found: flash
+[2020-04-07 16:36:38,845] multiqc                                            [DEBUG  ]  No samples found: seqyclean
+[2020-04-07 16:36:38,852] multiqc                                            [INFO   ]  Compressing plot data
+[2020-04-07 16:36:38,930] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2020-04-07 16:36:38,930] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2020-04-07 16:36:38,939] multiqc                                            [DEBUG  ]  Moving data file from '/scratch/13242094/tmpq6g3wbun/multiqc_data/multiqc_data.json' to '/domus/h1/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_untrimmed/multiqc_data'
+[2020-04-07 16:36:38,945] multiqc                                            [DEBUG  ]  Moving data file from '/scratch/13242094/tmpq6g3wbun/multiqc_data/multiqc_general_stats.txt' to '/domus/h1/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_untrimmed/multiqc_data'
+[2020-04-07 16:36:38,946] multiqc                                            [DEBUG  ]  Moving data file from '/scratch/13242094/tmpq6g3wbun/multiqc_data/multiqc_qualimap_bamqc_genome_results.txt' to '/domus/h1/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_untrimmed/multiqc_data'
+[2020-04-07 16:36:38,948] multiqc                                            [DEBUG  ]  Moving data file from '/scratch/13242094/tmpq6g3wbun/multiqc_data/multiqc_fastqc.txt' to '/domus/h1/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_untrimmed/multiqc_data'
+[2020-04-07 16:36:38,950] multiqc                                            [DEBUG  ]  Moving data file from '/scratch/13242094/tmpq6g3wbun/multiqc_data/multiqc_sources.txt' to '/domus/h1/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_untrimmed/multiqc_data'
+[2020-04-07 16:36:39,180] multiqc                                            [INFO   ]  MultiQC complete
