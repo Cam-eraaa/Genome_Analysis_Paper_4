@@ -16,7 +16,6 @@ genome_analysis_paper_4
 │   │   ├── 4_1_mapping
 │   │   └── 4_2_read_counting
 │   └── 5_phylogeny
-│   └── 5_phylogeny
 ├── code
 │   ├── code1.sh
 │   └── code2.sh
