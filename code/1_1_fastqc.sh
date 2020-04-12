@@ -15,14 +15,14 @@ fastqc -o /home/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_re
 fastqc -o /home/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_untrimmed /proj/g2020008/4_Thrash_2017/RNA_untrimmed/*.fastq.gz
 fastqc -o /home/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_trimmed /home/camil/private/trimmed_RNA/*fastq.gz
 cd /home/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/DNA_trimmed
-unzip \*.zip
+unzip '*.zip'
 rm *.zip
 multiqc .
 cd /home/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_untrimmed
-unzip \*.zip
+unzip '*.zip'
 rm *.zip
 multiqc .
 cd /home/camil/private/Genome_Analysis_Paper_4/analyses/1_assembly/1_1_reads_quality_control/RNA_trimmed
-unzip \*.zip
+unzip '*.zip'
 rm *.zip
 multiqc .
