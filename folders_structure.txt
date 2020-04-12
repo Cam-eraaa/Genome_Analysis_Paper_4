@@ -17,8 +17,8 @@ genome_analysis_paper_4
 │   │   └── 4_2_read_counting
 │   └── 5_phylogeny
 ├── code
-│   ├── code1.sh
-│   └── code2.sh
+│   ├── 1_0_trimmomatic.sh
+│   └── 1_1_fastqc.sh
 └── data
     ├── raw_DNA
     └── raw_RNA
