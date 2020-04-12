@@ -6,11 +6,9 @@
 #SBATCH -J trimmomatic_for_untrimmed_RNA
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user camille.humbert98@gmail.com
-
 # Load modules
 module load bioinfo-tools
 module load trimmomatic
-
 # Your commands
 java -jar $TRIMMOMATIC_HOME/trimmomatic.jar PE -threads 2 -phred33 -trimlog \
 /home/camil/private/Genome_Analysis_Paper_4/data/trimmed_RNA/trimlog_SRR4342137 \
