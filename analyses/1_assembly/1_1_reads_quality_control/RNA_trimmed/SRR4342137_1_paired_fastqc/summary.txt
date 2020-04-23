@@ -1,6 +1,6 @@
 PASS	Basic Statistics	SRR4342137_1_paired.fastq.gz
 PASS	Per base sequence quality	SRR4342137_1_paired.fastq.gz
-PASS	Per tile sequence quality	SRR4342137_1_paired.fastq.gz
+WARN	Per tile sequence quality	SRR4342137_1_paired.fastq.gz
 PASS	Per sequence quality scores	SRR4342137_1_paired.fastq.gz
 WARN	Per base sequence content	SRR4342137_1_paired.fastq.gz
 PASS	Per sequence GC content	SRR4342137_1_paired.fastq.gz
