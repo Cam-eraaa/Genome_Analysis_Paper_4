@@ -1,0 +1,442 @@
+/sw/bioinfo/quast/4.5.4/rackham/bin/metaquast.py -t 2 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.10.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.11.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.12.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.13.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.14.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.15.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.16.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.17.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.18.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.19.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.1.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.20.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.21.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.22.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.23.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.24.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.25.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.26.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.27.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.2.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.3.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.4.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.5.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.6.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.7.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.8.fa /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.9.fa -o /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation -1 /proj/g2020008/4_Thrash_2017/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz /proj/g2020008/4_Thrash_2017/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz -2 /proj/g2020008/4_Thrash_2017/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz /proj/g2020008/4_Thrash_2017/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz
+
+Version: 4.5.4
+
+System information:
+  OS: Linux-3.10.0-1062.18.1.el7.x86_64-x86_64-with-centos-7.7.1908-Core (linux_64)
+  Python version: 2.7.6
+  CPUs number: 20
+
+Started: 2020-04-24 15:15:03
+
+Logging to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/metaquast.log
+
+Contigs:
+  Pre-processing...
+  1  /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.10.fa ==> 2_1_metabat_binning.10
+  2  /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.11.fa ==> 2_1_metabat_binning.11
+  3  /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.12.fa ==> 2_1_metabat_binning.12
+  4  /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.13.fa ==> 2_1_metabat_binning.13
+  5  /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.14.fa ==> 2_1_metabat_binning.14
+  6  /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.15.fa ==> 2_1_metabat_binning.15
+  7  /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.16.fa ==> 2_1_metabat_binning.16
+  8  /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.17.fa ==> 2_1_metabat_binning.17
+  9  /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.18.fa ==> 2_1_metabat_binning.18
+  10 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.19.fa ==> 2_1_metabat_binning.19
+  11 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.1.fa ==> 2_1_metabat_binning.1
+  12 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.20.fa ==> 2_1_metabat_binning.20
+  13 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.21.fa ==> 2_1_metabat_binning.21
+  14 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.22.fa ==> 2_1_metabat_binning.22
+  15 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.23.fa ==> 2_1_metabat_binning.23
+  16 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.24.fa ==> 2_1_metabat_binning.24
+  17 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.25.fa ==> 2_1_metabat_binning.25
+  18 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.26.fa ==> 2_1_metabat_binning.26
+  19 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.27.fa ==> 2_1_metabat_binning.27
+  20 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.2.fa ==> 2_1_metabat_binning.2
+  21 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.3.fa ==> 2_1_metabat_binning.3
+  22 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.4.fa ==> 2_1_metabat_binning.4
+  23 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.5.fa ==> 2_1_metabat_binning.5
+  24 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.6.fa ==> 2_1_metabat_binning.6
+  25 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.7.fa ==> 2_1_metabat_binning.7
+  26 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.8.fa ==> 2_1_metabat_binning.8
+  27 /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.9.fa ==> 2_1_metabat_binning.9
+  28 /proj/g2020008/4_Thrash_2017/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz ==> SRR4342133_1.paired.trimmed.fastq
+  29 /proj/g2020008/4_Thrash_2017/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz ==> SRR4342133_2.paired.trimmed.fastq
+
+No references are provided, starting to search for reference genomes in SILVA 16S rRNA database and to download them from NCBI...
+
+2020-04-24 15:20:58
+NOTICE: Permission denied accessing /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/blast. BLAST will be downloaded to home directory /home/camil/.quast
+Downloading makeblastdb...
+makeblastdb successfully downloaded!
+
+Downloading blastn...
+blastn successfully downloaded!
+
+NOTICE: Permission denied accessing /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/silva. Silva will be downloaded to home directory /home/camil/.quast
+
+Downloading SILVA 16S ribosomal RNA gene database...
+Processing downloaded file. Logging to /home/camil/.quast/silva/blastdb.log...
+Unpacking and replacing " " with "_"...
+gunzip -c /home/camil/.quast/silva/SILVA_123_SSURef_Nr99_tax_silva.fasta.gz > /home/camil/.quast/silva/SILVA_123_SSURef_Nr99_tax_silva.fasta.unpacked \
+2>> /home/camil/.quast/silva/blastdb.log
+Making BLAST database...
+/home/camil/.quast/blast/makeblastdb -in /home/camil/.quast/silva/SILVA_123_SSURef_Nr99_tax_silva.fasta \
+-dbtype nucl -out /home/camil/.quast/silva/silva.123.db >> /home/camil/.quast/silva/blastdb.log \
+2>> /home/camil/.quast/silva/blastdb.log
+Running BlastN..
+  processing 2_1_metabat_binning.11
+  processing 2_1_metabat_binning.10
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.11.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-11 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.10.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-10 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.11 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-11...
+  processing 2_1_metabat_binning.12
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.12.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-12 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.10 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-10...
+  processing 2_1_metabat_binning.13
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.13.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-13 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.12 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-12...
+  processing 2_1_metabat_binning.14
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.14.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-14 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.13 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-13...
+  processing 2_1_metabat_binning.15
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.15.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-15 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.14 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-14...
+  processing 2_1_metabat_binning.16
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.16.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-16 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.16 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-16...
+  processing 2_1_metabat_binning.17
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.17.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-17 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.15 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-15...
+  processing 2_1_metabat_binning.18
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.18.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-18 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.18 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-18...
+  processing 2_1_metabat_binning.19
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.19.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-19 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.19 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-19...
+  processing 2_1_metabat_binning.1
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.1.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-1 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.1 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-1...
+  processing 2_1_metabat_binning.20
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.20.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-20 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.20 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-20...
+  processing 2_1_metabat_binning.21
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.21.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-21 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.21 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-21...
+  processing 2_1_metabat_binning.22
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.22.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-22 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.22 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-22...
+  processing 2_1_metabat_binning.23
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.23.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-23 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.17 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-17...
+  processing 2_1_metabat_binning.24
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.24.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-24 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.23 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-23...
+  processing 2_1_metabat_binning.25
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.25.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-25 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.24 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-24...
+  processing 2_1_metabat_binning.26
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.26.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-26 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.26 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-26...
+  processing 2_1_metabat_binning.27
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.27.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-27 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.27 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-27...
+  processing 2_1_metabat_binning.2
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.2.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-2 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.25 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-25...
+  processing 2_1_metabat_binning.3
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.3.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-3 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.3 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-3...
+  processing 2_1_metabat_binning.4
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.4.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-4 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.2 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-2...
+  processing 2_1_metabat_binning.5
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.5.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-5 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.4 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-4...
+  processing 2_1_metabat_binning.6
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.6.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-6 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.6 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-6...
+  processing 2_1_metabat_binning.7
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.7.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-7 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.7 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-7...
+  processing 2_1_metabat_binning.8
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.8.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-8 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.8 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-8...
+  processing 2_1_metabat_binning.9
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_1_metabat_binning.9.fa \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-9 \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+  BLAST results for 2_1_metabat_binning.5 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-5...
+  processing SRR4342133_1.paired.trimmed.fastq
+  unpacking SRR4342133_1.paired.trimmed.fastq
+  BLAST results for 2_1_metabat_binning.9 are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_2_1_metabat_binning-9...
+  processing SRR4342133_2.paired.trimmed.fastq
+  unpacking SRR4342133_2.paired.trimmed.fastq
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_corrected_input/SRR4342133_1.paired.trimmed.fastq.gz.unpacked \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_SRR4342133_1-paired-trimmed-fastq \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+The tool returned non-zero. See ../../../../../../home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err for stderr.
+  BLAST results for SRR4342133_1.paired.trimmed.fastq are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_SRR4342133_1-paired-trimmed-fastq...
+/home/camil/.quast/blast/blastn -query /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_corrected_input/SRR4342133_2.paired.trimmed.fastq.gz.unpacked \
+-db /home/camil/.quast/silva/silva.123.db -outfmt 7 -num_threads 1 > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_SRR4342133_2-paired-trimmed-fastq \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err
+The tool returned non-zero. See ../../../../../../home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.err for stderr.
+  BLAST results for SRR4342133_2.paired.trimmed.fastq are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/blast.res_SRR4342133_2-paired-trimmed-fastq...
+
+
+2020-04-24 15:30:00
+Trying to download found references from NCBI. Totally 6 organisms to try.
+  Ilumatobacter_nonamiensis_YM16-303   | successfully downloaded (total 1, 5 more to go)
+  Psychroserpens_sp._PAMC_27130        | successfully downloaded (total 2, 4 more to go)
+  Acidimicrobidae_bacterium_YM18-244   | not found in the NCBI database
+  Syntrophus_aciditrophicus            | successfully downloaded (total 3, 2 more to go)
+marine metagenome has too fragmented reference genome! It will not be downloaded.
+  marine_metagenome                    | not found in the NCBI database
+  unidentified_marine_bacterioplankton | not found in the NCBI database
+
+Downloaded reference(s):
+  /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/Ilumatobacter_nonamiensis_YM16-303.fasta ==> Ilumatobacter_nonamiensis_YM16-303
+  /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/Psychroserpens_sp._PAMC_27130.fasta ==> Psychroserpens_sp._PAMC_27130
+  /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_downloaded_references/Syntrophus_aciditrophicus.fasta ==> Syntrophus_aciditrophicus
+  All references were combined in combined_reference.fasta
+
+2020-04-24 15:36:12
+Running Reads analyzer...
+NOTICE: Permission denied accessing /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/manta0.29.6. Manta will be downloaded to home directory /home/camil/.quast
+  Downloading binary distribution of Manta...
+  Manta successfully downloaded!
+  Unpacking Manta...
+  Done
+  Logging to files /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/combined_reference/structural_variations/sv_calling.log and /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/combined_reference/structural_variations/sv_calling.err...
+  Pre-processing reads...
+  Running BWA...
+/sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/bwa/bwa index \
+-p combined_reference /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/quast_corrected_input/combined_reference.fasta \
+>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/combined_reference/structural_variations/sv_calling.log \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/combined_reference/structural_variations/sv_calling.err
+/sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/bwa/bwa mem \
+-t 2 combined_reference /proj/g2020008/4_Thrash_2017/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz \
+/proj/g2020008/4_Thrash_2017/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/combined_reference/structural_variations/temp_output/combined_reference.sam \
+2>> /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/combined_reference/structural_variations/sv_calling.err
+The tool returned non-zero. See ../../../../../../../../../../../home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/combined_reference/structural_variations/sv_calling.err for stderr.
+  Done.
+  Sorting SAM-file...
+
+ERROR! Failed searching structural variations! This function is experimental and may work improperly. Sorry for the inconvenience.
+Done.
+
+Starting quast.py for the combined reference...
+(logging to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/combined_reference/quast.log)
+
+Excluding downloaded references with low genome fraction from further analysis..
+All downloaded references have low genome fraction. Nothing was excluded for now.
+
+Partitioning contigs into bins aligned to each reference..
+  processing 2_1_metabat_binning.10
+  processing 2_1_metabat_binning.11
+  processing 2_1_metabat_binning.12
+  processing 2_1_metabat_binning.13
+  processing 2_1_metabat_binning.14
+  processing 2_1_metabat_binning.18
+  processing 2_1_metabat_binning.15
+  processing 2_1_metabat_binning.19
+  processing 2_1_metabat_binning.16
+  processing 2_1_metabat_binning.1
+  processing 2_1_metabat_binning.17
+  processing 2_1_metabat_binning.20
+  processing 2_1_metabat_binning.21
+  processing 2_1_metabat_binning.22
+  processing 2_1_metabat_binning.25
+  processing 2_1_metabat_binning.23
+  processing 2_1_metabat_binning.24
+  processing 2_1_metabat_binning.3
+  processing 2_1_metabat_binning.4
+  processing 2_1_metabat_binning.5
+  processing 2_1_metabat_binning.6
+  processing 2_1_metabat_binning.7
+  processing 2_1_metabat_binning.8
+  processing 2_1_metabat_binning.9
+  processing 2_1_metabat_binning.26
+  processing 2_1_metabat_binning.27
+  processing 2_1_metabat_binning.2
+
+Starting quast.py for the contigs aligned to Ilumatobacter_nonamiensis_YM16-303... (logging to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/runs_per_reference/Ilumatobacter_nonamiensis_YM16-303/quast.log)
+
+Starting quast.py for the contigs aligned to Psychroserpens_sp._PAMC_27130... (logging to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/runs_per_reference/Psychroserpens_sp._PAMC_27130/quast.log)
+
+No contigs were aligned to the reference Syntrophus_aciditrophicus, skipping..
+
+Starting quast.py for the contigs not aligned anywhere... (logging to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/not_aligned/quast.log)
+
+2020-04-24 16:11:38
+Summarizing results...
+  Drawing # contigs metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/#_contigs.pdf
+  Drawing Largest contig metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/Largest_contig.pdf
+  Drawing Total length metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/Total_length.pdf
+  Drawing Largest alignment metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/Largest_alignment.pdf
+  Drawing Total aligned length metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/Total_aligned_length.pdf
+  Drawing Total length (>= 1000 bp) metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/Total_length_(>=_1000_bp).pdf
+  Drawing Total length (>= 10000 bp) metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/Total_length_(>=_10000_bp).pdf
+  Drawing Total length (>= 50000 bp) metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/Total_length_(>=_50000_bp).pdf
+  Drawing # misassemblies metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/#_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.10...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-10_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.11...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-11_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.12...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-12_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.13...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-13_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.14...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-14_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.15...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-15_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.16...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-16_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.17...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-17_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.18...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-18_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.19...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-19_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.1...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-1_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.20...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-20_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.21...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-21_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.22...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-22_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.23...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-23_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.24...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-24_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.25...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-25_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.26...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-26_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.27...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-27_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.2...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-2_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.3...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-3_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.4...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-4_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.5...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-5_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.6...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-6_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.7...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-7_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.8...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-8_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for 2_1_metabat_binning.9...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/2_1_metabat_binning-9_misassemblies.pdf
+  Drawing Misassembled contigs length metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/Misassembled_contigs_length.pdf
+  Drawing # mismatches per 100 kbp metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/#_mismatches_per_100_kbp.pdf
+  Drawing # indels per 100 kbp metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/#_indels_per_100_kbp.pdf
+  Drawing # N's per 100 kbp metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/#_N's_per_100_kbp.pdf
+  Drawing Genome fraction (%) metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/Genome_fraction_(%).pdf
+  Drawing Duplication ratio metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/Duplication_ratio.pdf
+  Drawing Avg contig read support metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/Avg_contig_read_support.pdf
+  Drawing # genes metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/#_genes.pdf
+  Drawing # operons metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/#_operons.pdf
+  Drawing NGA50 metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/NGA50.pdf
+  Drawing LGA50 metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/LGA50.pdf
+  Drawing # predicted genes (unique) metaQUAST summary plot...
+    saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/PDF/#_predicted_genes_(unique).pdf
+
+  Text versions of reports and plots for each metric (for all references and assemblies) are saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/summary/
+  Icarus (contig browser) is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/icarus.html
+  Drawing interactive Krona plots...
+  Krona chart for 2_1_metabat_binning.10 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.10_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.11 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.11_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.12 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.12_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.13 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.13_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.14 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.14_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.15 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.15_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.16 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.16_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.17 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.17_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.18 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.18_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.19 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.19_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.1 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.1_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.20 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.20_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.21 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.21_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.22 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.22_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.23 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.23_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.24 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.24_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.25 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.25_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.26 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.26_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.27 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.27_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.2 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.2_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.3 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.3_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.4 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.4_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.5 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.5_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.6 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.6_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.7 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.7_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.8 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.8_taxonomy_chart.html
+  Krona chart for 2_1_metabat_binning.9 is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/2_1_metabat_binning.9_taxonomy_chart.html
+  Summary Krona chart is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/krona_charts/summary_taxonomy_chart.html
+  Extended version of HTML-report (for all references and assemblies) is saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/report.html
+
+MetaQUAST finished.
+  Log saved to /home/camil/private/Genome_Analysis_Paper_4/analyses/2_binning/2_2_assembly_evaluation/metaquast.log
+
+Finished: 2020-04-24 16:12:03
+Elapsed time: 0:57:00.286587
+Total NOTICEs: 7; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
