@@ -13,6 +13,7 @@ module load FastTree
 module load usearch/5.2.32
 module load biopython
 module load muscle
+module load python/2.7.15
 # set this to the directory where you want to store your phylophlan results
 outdir=/home/camil/private/Genome_Analysis_Paper_4/analyses/6_phylogeny
 # create the directories that phylophlan looks for:
@@ -35,7 +36,7 @@ done
 ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/data/*.bz2 $outdir/data/
 ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/data/ppaalns/*.bz2 $outdir/data/ppaalns/
 ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/data/ppafull.tax.txt $outdir/data/
-ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/taxcuration/ $outdir/taxcuration
+#ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/taxcuration/ $outdir/taxcuration
 
 cd $outdir
-phylophlan.py -t -i $outdir/input/metagenome --nproc 2
+phylophlan.py -t -i metagenome --nproc 2
