@@ -1,0 +1,728 @@
+##############################
+Bin 1
+##############################
+2137
+##############################
+Number of expressed genes: 375 (31.618887015177066%)
+Number of not expressed genes: 811 (68.38111298482293%)
+hypothetical protein 473
+hypothetical protein 184
+Chaperone protein DnaK 67
+hypothetical protein 62
+Transcription initiation factor IIB 52
+Transcription initiation factor IIB 50
+hypothetical protein 49
+Elongation factor 1-alpha 45
+hypothetical protein 34
+hypothetical protein 28
+hypothetical protein 26
+hypothetical protein 25
+DNA-directed RNA polymerase subunit B' 23
+VCP-like ATPase 21
+DNA-directed RNA polymerase subunit A' 20
+3-ketoacyl-CoA thiolase 20
+Dolichyl-monophosphooligosaccharide--protein glycotransferase AglB 18
+hypothetical protein 14
+hypothetical protein 14
+hypothetical protein 14
+##############################
+2139
+##############################
+Number of expressed genes: 455 (38.36424957841484%)
+Number of not expressed genes: 731 (61.63575042158516%)
+hypothetical protein 159
+hypothetical protein 95
+Elongation factor 1-alpha 81
+Chaperone protein DnaK 66
+hypothetical protein 63
+hypothetical protein 61
+hypothetical protein 56
+hypothetical protein 53
+hypothetical protein 50
+Transcription initiation factor IIB 46
+Dolichyl-monophosphooligosaccharide--protein glycotransferase AglB 41
+hypothetical protein 35
+DNA-directed RNA polymerase subunit A' 34
+DNA-directed RNA polymerase subunit B' 34
+hypothetical protein 32
+hypothetical protein 26
+hypothetical protein 23
+30S ribosomal protein S2 23
+hypothetical protein 22
+hypothetical protein 22
+##############################
+Bin 12
+##############################
+2137
+##############################
+Number of expressed genes: 1790 (58.116883116883116%)
+Number of not expressed genes: 1290 (41.883116883116884%)
+hypothetical protein 13355
+NAD(P)H-quinone oxidoreductase subunit I%2C chloroplastic 1501
+Zinc-containing ferredoxin 1148
+hypothetical protein 923
+Putative ammonium transporter 564
+Cell division protein A 457
+hypothetical protein 415
+Cell division protein A 326
+Cell division protein B1 283
+hypothetical protein 268
+Elongation factor 1-alpha 224
+DNA-directed RNA polymerase subunit A' 220
+hypothetical protein 212
+3-hydroxypropionyl-coenzyme A dehydratase 195
+Transcription initiation factor IIB 191
+DNA-directed RNA polymerase subunit B' 177
+hypothetical protein 169
+3D-(3%2C5/4)-trihydroxycyclohexane-1%2C2-dione hydrolase 168
+Ketol-acid reductoisomerase (NAD(P)(+)) 156
+hypothetical protein 146
+##############################
+2139
+##############################
+Number of expressed genes: 1805 (58.603896103896105%)
+Number of not expressed genes: 1275 (41.396103896103895%)
+hypothetical protein 5922
+NAD(P)H-quinone oxidoreductase subunit I%2C chloroplastic 2486
+hypothetical protein 1306
+Zinc-containing ferredoxin 1242
+hypothetical protein 908
+Cell division protein B1 840
+hypothetical protein 806
+hypothetical protein 752
+Cell division protein A 748
+Transcription initiation factor IIB 668
+hypothetical protein 667
+Putative ammonium transporter 662
+hypothetical protein 660
+hypothetical protein 617
+hypothetical protein 575
+hypothetical protein 536
+hypothetical protein 503
+hypothetical protein 481
+hypothetical protein 444
+hypothetical protein 439
+##############################
+Bin 27
+##############################
+2137
+##############################
+Number of expressed genes: 565 (35.15868077162414%)
+Number of not expressed genes: 1042 (64.84131922837585%)
+Ycf48-like protein 192
+hypothetical protein 188
+hypothetical protein 80
+hypothetical protein 64
+Halocyanin 57
+hypothetical protein 47
+Chaperone protein DnaK 42
+hypothetical protein 40
+Transcription initiation factor IIB 38
+hypothetical protein 37
+DNA-directed RNA polymerase subunit B' 27
+DNA-directed RNA polymerase subunit A' 24
+Halocyanin 21
+hypothetical protein 20
+DNA repair and recombination protein RadA 19
+hypothetical protein 19
+50S ribosomal protein L4 19
+DNA-directed RNA polymerase subunit A' 18
+hypothetical protein 18
+Proteasome subunit beta 18
+##############################
+2139
+##############################
+Number of expressed genes: 400 (24.891101431238333%)
+Number of not expressed genes: 1207 (75.10889856876167%)
+hypothetical protein 93
+hypothetical protein 55
+GTP cyclohydrolase-2 41
+hypothetical protein 34
+Halocyanin 29
+DNA-directed RNA polymerase subunit A' 25
+DNA-directed RNA polymerase subunit B' 25
+hypothetical protein 22
+50S ribosomal protein L15 22
+hypothetical protein 22
+hypothetical protein 21
+hypothetical protein 16
+hypothetical protein 16
+Ycf48-like protein 15
+hypothetical protein 15
+hypothetical protein 15
+hypothetical protein 14
+Halocyanin 14
+Elongation factor 2 14
+Crotonobetainyl-CoA dehydrogenase 14
+##############################
+Bin 3
+##############################
+2137
+##############################
+Number of expressed genes: 682 (29.978021978021978%)
+Number of not expressed genes: 1593 (70.02197802197803%)
+putative transport protein MmpL9 133
+sn-glycerol-3-phosphate-binding periplasmic protein UgpB 43
+hypothetical protein 41
+Heme-binding protein A 26
+50S ribosomal protein L25 14
+hypothetical protein 14
+Negative regulator of genetic competence ClpC/MecB 12
+Dipeptidyl aminopeptidase BIII 11
+hypothetical protein 11
+DNA-binding protein HU 11
+hypothetical protein 10
+hypothetical protein 9
+ATP-dependent zinc metalloprotease FtsH 8
+Ribosomal RNA small subunit methyltransferase G 8
+Negative regulator of genetic competence ClpC/MecB 8
+60 kDa chaperonin 8
+Oxalate oxidoreductase subunit alpha 8
+Heme/hemopexin transporter protein HuxB 7
+hypothetical protein 7
+Proton/glutamate-aspartate symporter 7
+##############################
+2139
+##############################
+Number of expressed genes: 790 (34.72527472527472%)
+Number of not expressed genes: 1485 (65.27472527472527%)
+putative transport protein MmpL9 903
+hypothetical protein 86
+hypothetical protein 47
+hypothetical protein 44
+50S ribosomal protein L27 36
+hypothetical protein 31
+DNA-binding protein HU 29
+N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase 26
+hypothetical protein 25
+Putative serine protease HtrA 25
+sn-glycerol-3-phosphate-binding periplasmic protein UgpB 23
+Isocitrate dehydrogenase [NADP] 23
+hypothetical protein 23
+Negative regulator of genetic competence ClpC/MecB 22
+Heme/hemopexin transporter protein HuxB 21
+hypothetical protein 21
+hypothetical protein 20
+hypothetical protein 20
+hypothetical protein 19
+hypothetical protein 19
+##############################
+Bin 4
+##############################
+2137
+##############################
+Number of expressed genes: 371 (24.488448844884488%)
+Number of not expressed genes: 1144 (75.51155115511551%)
+DNA repair protein RadA 141
+30S ribosomal protein S19 97
+hypothetical protein 42
+Chaperone protein DnaK 19
+ADP-heptose--LPS heptosyltransferase 2 16
+60 kDa chaperonin 12
+hypothetical protein 10
+Heme-binding protein A 10
+50S ribosomal protein L5 10
+50S ribosomal protein L20 9
+HTH-type transcriptional repressor NsrR 9
+18 kDa heat shock protein 9
+Elongation factor G 9
+N-acetylmuramoyl-L-alanine amidase AmiC 8
+UDP-glucose 6-dehydrogenase 8
+Thiamine pyrophosphokinase 7
+hypothetical protein 7
+30S ribosomal protein S7 7
+DNA-directed RNA polymerase subunit beta 7
+Na(+)-translocating NADH-quinone reductase subunit A 7
+##############################
+2139
+##############################
+Number of expressed genes: 605 (39.93399339933993%)
+Number of not expressed genes: 910 (60.06600660066007%)
+30S ribosomal protein S19 105
+hypothetical protein 96
+Chaperone protein DnaK 46
+hypothetical protein 44
+Lon protease 2 43
+TonB-dependent receptor SusC 43
+hypothetical protein 38
+putative zinc protease 38
+4-diphosphocytidyl-2-C-methyl-D-erythritol kinase 38
+30S ribosomal protein S6 31
+hypothetical protein 30
+Acetyl-coenzyme A synthetase 29
+DNA-directed RNA polymerase subunit beta' 28
+hypothetical protein 27
+DNA-directed RNA polymerase subunit beta 27
+hypothetical protein 26
+Elongation factor G 24
+hypothetical protein 23
+hypothetical protein 22
+hypothetical protein 20
+##############################
+Bin 5
+##############################
+2137
+##############################
+Number of expressed genes: 195 (8.071192052980132%)
+Number of not expressed genes: 2221 (91.92880794701986%)
+60 kDa chaperonin 42
+D-alanyl-D-alanine carboxypeptidase DacC 33
+Ribulose bisphosphate carboxylase large chain 1 9
+Ferredoxin-dependent glutamate synthase 1 9
+Fimbrial protein 8
+ATP synthase subunit beta 8
+Arginine--tRNA ligase 7
+Chaperone protein DnaK 7
+hypothetical protein 7
+ATP-dependent zinc metalloprotease FtsH 6
+Diaminopimelate epimerase 6
+Adenosylhomocysteinase 6
+hypothetical protein 5
+50S ribosomal protein L19 5
+RNA polymerase-associated protein RapA 5
+Phosphomethylpyrimidine synthase 5
+ATP-dependent Clp protease ATP-binding subunit ClpX 4
+O-succinylhomoserine sulfhydrylase 4
+Succinate-semialdehyde dehydrogenase [NADP(+)] 4
+GDP-mannose 4%2C6-dehydratase 4
+##############################
+2139
+##############################
+Number of expressed genes: 552 (22.8476821192053%)
+Number of not expressed genes: 1864 (77.1523178807947%)
+A-type flagellin 109
+Alpha-keto acid-binding periplasmic protein TakP 63
+60 kDa chaperonin 50
+3-hydroxylaminophenol mutase 45
+hypothetical protein 41
+hypothetical protein 22
+Poly(3-hydroxyalkanoate) polymerase subunit PhaE 21
+Aconitate hydratase B 20
+Ammonia channel 19
+Cytochrome subunit of sulfide dehydrogenase 18
+ATP synthase subunit alpha 18
+Methylmalonyl-CoA carboxyltransferase 5S subunit 18
+hypothetical protein 17
+hypothetical protein 15
+hypothetical protein 15
+ATP synthase subunit b 15
+Sulfide dehydrogenase [flavocytochrome c] flavoprotein chain 14
+Nitrogen regulation protein NR(I) 14
+Poly(3-hydroxyalkanoate) polymerase subunit PhaC 13
+Nitrogen regulation protein NR(II) 13
+##############################
+Bin 9
+##############################
+2137
+##############################
+Number of expressed genes: 476 (13.314685314685315%)
+Number of not expressed genes: 3099 (86.68531468531468%)
+hypothetical protein 109
+Chaperone protein ClpB 1 25
+hypothetical protein 17
+60 kDa chaperonin 1 12
+hypothetical protein 12
+hypothetical protein 10
+Arylsulfatase 10
+hypothetical protein 9
+hypothetical protein 9
+60 kDa chaperonin 1 7
+hypothetical protein 6
+hypothetical protein 6
+Monoterpene epsilon-lactone hydrolase 6
+hypothetical protein 6
+hypothetical protein 5
+hypothetical protein 5
+hypothetical protein 5
+hypothetical protein 4
+50S ribosomal protein L18 4
+hypothetical protein 4
+##############################
+2139
+##############################
+Number of expressed genes: 354 (9.902097902097902%)
+Number of not expressed genes: 3221 (90.0979020979021%)
+N-acetylglucosamine repressor 33
+hypothetical protein 21
+hypothetical protein 18
+60 kDa chaperonin 1 14
+Choline-sulfatase 14
+Protein-arginine kinase activator protein 13
+Monoterpene epsilon-lactone hydrolase 9
+Putative serine protease HtrA 9
+hypothetical protein 8
+Carbamoyl-phosphate synthase small chain 8
+hypothetical protein 7
+ATP-dependent Clp protease ATP-binding subunit ClpX 7
+hypothetical protein 6
+hypothetical protein 6
+Type II secretion system protein G 5
+FeS cluster assembly protein SufB 5
+hypothetical protein 5
+hypothetical protein 5
+Sec-independent protein translocase protein TatB 5
+ATP synthase subunit alpha 5
+##############################
+Bin 11
+##############################
+2137
+##############################
+Number of expressed genes: 299 (10.285517715858273%)
+Number of not expressed genes: 2608 (89.71448228414172%)
+hypothetical protein 255
+Elongation factor Tu 10
+60 kDa chaperonin 1 9
+DNA-directed RNA polymerase subunit beta 6
+DNA-directed RNA polymerase subunit beta' 6
+Arylsulfatase 6
+hypothetical protein 5
+RNA polymerase sigma factor SigA 5
+Chaperone protein DnaK 5
+hypothetical protein 5
+hypothetical protein 5
+hypothetical protein 5
+hypothetical protein 4
+60 kDa chaperonin 5 4
+hypothetical protein 4
+hypothetical protein 4
+Type II secretion system protein E 3
+Protein translocase subunit SecY 3
+Phosphoenolpyruvate carboxykinase (ATP) 3
+dTDP-glucose 4%2C6-dehydratase 3
+##############################
+2139
+##############################
+Number of expressed genes: 230 (7.911936704506364%)
+Number of not expressed genes: 2677 (92.08806329549364%)
+hypothetical protein 17
+60 kDa chaperonin 1 15
+hypothetical protein 11
+hypothetical protein 9
+60 kDa chaperonin 1 8
+Elongation factor Tu 7
+putative transporter 7
+Putative tyrosine-protein kinase YveL 6
+hypothetical protein 6
+hypothetical protein 6
+Beta-barrel assembly-enhancing protease 5
+Phytochrome-like protein cph2 5
+Fumarate reductase iron-sulfur subunit 5
+Adhesin BmaC autotransporter 5
+30S ribosomal protein S1 5
+NADH-quinone oxidoreductase subunit N 4
+Type II secretion system protein E 4
+hypothetical protein 4
+hypothetical protein 4
+PhoH-like protein 4
+##############################
+Bin 13
+##############################
+2137
+##############################
+Number of expressed genes: 254 (10.699241786015165%)
+Number of not expressed genes: 2120 (89.30075821398484%)
+60 kDa chaperonin 1 26
+Chaperone protein DnaK 8
+50S ribosomal protein L3 6
+ATP synthase subunit beta 5
+ATP synthase subunit beta 5
+Putative amino-acid ABC transporter-binding protein YhdW 5
+DNA-directed RNA polymerase subunit beta 5
+Thioredoxin 5
+50S ribosomal protein L4 4
+Polyribonucleotide nucleotidyltransferase 4
+6-aminohexanoate-cyclic-dimer hydrolase 4
+Adenylate cyclase 4
+hypothetical protein 4
+Translation initiation factor IF-3 4
+ATP-dependent zinc metalloprotease FtsH 4
+30S ribosomal protein S7 4
+30S ribosomal protein S12 4
+50S ribosomal protein L2 3
+Thiamine-binding periplasmic protein 3
+GTP-binding protein TypA/BipA 3
+##############################
+2139
+##############################
+Number of expressed genes: 194 (8.171861836562764%)
+Number of not expressed genes: 2180 (91.82813816343723%)
+30S ribosomal protein S1 10
+50S ribosomal protein L21 9
+Glucose-6-phosphate isomerase 9
+DNA-directed RNA polymerase subunit beta 8
+hypothetical protein 8
+hypothetical protein 7
+Chaperone protein DnaK 6
+60 kDa chaperonin 1 6
+Succinate--CoA ligase [ADP-forming] subunit beta 5
+ATP-dependent Clp protease ATP-binding subunit ClpC1 5
+Transcription termination/antitermination protein NusG 5
+Selenocysteine-specific elongation factor 5
+50S ribosomal protein L3 4
+Xylose transport system permease protein XylH 4
+ATP synthase subunit beta 4
+Pyruvate%2C phosphate dikinase 4
+ATP synthase gamma chain 4
+hypothetical protein 4
+Glyceraldehyde-3-phosphate dehydrogenase 2 4
+DNA-directed RNA polymerase subunit alpha 4
+##############################
+Bin 14
+##############################
+2137
+##############################
+Number of expressed genes: 518 (34.85868102288021%)
+Number of not expressed genes: 968 (65.14131897711978%)
+Spore protein SP21 147
+Chaperone protein DnaK 68
+Elongation factor Tu 64
+Lon protease 2 54
+50S ribosomal protein L35 40
+Transcription termination/antitermination protein NusA 37
+60 kDa chaperonin 32
+L-threonine 3-dehydrogenase 20
+DNA-directed RNA polymerase subunit beta' 19
+30S ribosomal protein S2 18
+hypothetical protein 16
+UDP-3-O-acyl-N-acetylglucosamine deacetylase 16
+hypothetical protein 14
+hypothetical protein 13
+30S ribosomal protein S7 13
+50S ribosomal protein L7/L12 13
+hypothetical protein 12
+hypothetical protein 12
+ATP synthase subunit b 12
+putative acyl-CoA dehydrogenase 10
+##############################
+2139
+##############################
+Number of expressed genes: 622 (41.857335127860026%)
+Number of not expressed genes: 864 (58.142664872139974%)
+Chaperone protein DnaK 105
+Spore protein SP21 75
+hypothetical protein 63
+50S ribosomal protein L35 63
+Transcription termination/antitermination protein NusA 60
+Elongation factor Tu 45
+Lon protease 2 44
+hypothetical protein 36
+60 kDa chaperonin 34
+30S ribosomal protein S2 34
+hypothetical protein 30
+DNA-directed RNA polymerase subunit beta' 29
+Glycerol-3-phosphate dehydrogenase [NAD(P)+] 29
+hypothetical protein 27
+hypothetical protein 26
+Single-stranded DNA-binding protein 26
+hypothetical protein 26
+Membrane-bound lytic murein transglycosylase D 23
+30S ribosomal protein S1 22
+50S ribosomal protein L20 22
+##############################
+Bin 17
+##############################
+2137
+##############################
+Number of expressed genes: 449 (26.165501165501166%)
+Number of not expressed genes: 1267 (73.83449883449883%)
+hypothetical protein 3867
+hypothetical protein 455
+hypothetical protein 53
+F420H(2)-dependent quinone reductase 48
+hypothetical protein 46
+ATP-dependent Clp protease ATP-binding subunit ClpC1 24
+Dipeptidyl aminopeptidase 4 22
+Elongation factor Tu 17
+DNA-directed RNA polymerase subunit beta' 17
+DNA-directed RNA polymerase subunit beta 17
+Putative amino-acid ABC transporter-binding protein YhdW 16
+hypothetical protein 15
+60 kDa chaperonin 2 14
+Green-light absorbing proteorhodopsin 14
+Elongation factor G 14
+Endoribonuclease YbeY 13
+Phosphate-binding protein PstS 12
+Putative mycofactocin system creatinine amidohydrolase family protein MftE 11
+Nickel-binding periplasmic protein 11
+hypothetical protein 10
+##############################
+2139
+##############################
+Number of expressed genes: 179 (10.43123543123543%)
+Number of not expressed genes: 1537 (89.56876456876456%)
+hypothetical protein 2323
+F420H(2)-dependent quinone reductase 215
+hypothetical protein 214
+Dipeptidyl aminopeptidase 4 47
+Endoribonuclease YbeY 36
+hypothetical protein 17
+DNA-directed RNA polymerase subunit beta' 16
+tRNA (guanine-N(1)-)-methyltransferase 13
+hypothetical protein 10
+ATP-dependent Clp protease ATP-binding subunit ClpC1 10
+Molybdopterin molybdenumtransferase 9
+Elongation factor Tu 9
+Glyceraldehyde-3-phosphate dehydrogenase 3 8
+3-succinoylsemialdehyde-pyridine dehydrogenase 5
+Glucose 1-dehydrogenase 5
+Bicarbonate transport ATP-binding protein CmpD 5
+hypothetical protein 5
+hypothetical protein 5
+hypothetical protein 5
+Glutamyl-tRNA reductase 5
+##############################
+Bin 20
+##############################
+2137
+##############################
+Number of expressed genes: 569 (23.551324503311257%)
+Number of not expressed genes: 1847 (76.44867549668874%)
+hypothetical protein 234
+hypothetical protein 64
+Polyamine aminopropyltransferase 29
+Signal transduction histidine-protein kinase BarA 26
+CTP synthase 21
+hypothetical protein 15
+hypothetical protein 11
+hypothetical protein 11
+hypothetical protein 10
+DNA topoisomerase 1 10
+3'3'-cGAMP-specific phosphodiesterase 2 9
+NADH-dependent phenylglyoxylate dehydrogenase subunit gamma 9
+hypothetical protein 9
+hypothetical protein 9
+Light-independent protochlorophyllide reductase subunit B 8
+hypothetical protein 8
+Peptidoglycan hydrolase FlgJ 8
+hypothetical protein 7
+hypothetical protein 7
+hypothetical protein 7
+##############################
+2139
+##############################
+Number of expressed genes: 1064 (44.03973509933775%)
+Number of not expressed genes: 1352 (55.96026490066225%)
+hypothetical protein 108
+hypothetical protein 98
+hypothetical protein 93
+Isocitrate dehydrogenase [NADP] 69
+NADH-quinone oxidoreductase subunit L 69
+hypothetical protein 66
+hypothetical protein 64
+hypothetical protein 63
+hypothetical protein 63
+hypothetical protein 61
+hypothetical protein 58
+Putative peroxiredoxin bcp 52
+hypothetical protein 50
+hypothetical protein 48
+hypothetical protein 45
+hypothetical protein 44
+Spore protein SP21 44
+Glutaredoxin 4 42
+hypothetical protein 39
+Cold shock protein 1 38
+##############################
+Bin 23
+##############################
+2137
+##############################
+Number of expressed genes: 322 (16.180904522613066%)
+Number of not expressed genes: 1668 (83.81909547738694%)
+hypothetical protein 50
+Elongation factor Tu 25
+Elongation factor G 14
+60 kDa chaperonin 2 13
+DNA-directed RNA polymerase subunit beta' 12
+hypothetical protein 8
+Iron-sulfur cluster insertion protein ErpA 7
+Translation initiation factor IF-1 7
+Resuscitation-promoting factor Rpf2 7
+hypothetical protein 7
+hypothetical protein 7
+RNA polymerase principal sigma factor HrdB 7
+hypothetical protein 6
+Bifunctional IPC transferase and DIPP synthase 6
+Glutamine synthetase 6
+HTH-type transcriptional repressor SmtB 6
+Gamma-aminobutyraldehyde dehydrogenase 6
+Biotin carboxylase 5
+Cytochrome bc1 complex Rieske iron-sulfur subunit 5
+hypothetical protein 5
+##############################
+2139
+##############################
+Number of expressed genes: 309 (15.527638190954773%)
+Number of not expressed genes: 1681 (84.47236180904522%)
+DNA topoisomerase 1 89
+hypothetical protein 87
+Ammonia channel 24
+Elongation factor G 19
+Elongation factor Tu 15
+hypothetical protein 13
+hypothetical protein 12
+Murein DD-endopeptidase MepM 11
+Bifunctional IPC transferase and DIPP synthase 10
+Pyrimidine-specific ribonucleoside hydrolase RihA 10
+Serine protease AprX 10
+HTH-type transcriptional repressor SmtB 10
+Electron transfer flavoprotein subunit beta 10
+Phosphoenolpyruvate carboxykinase [GTP] 9
+60 kDa chaperonin 2 9
+RNA polymerase principal sigma factor HrdB 9
+Putative transcriptional regulator YwtF 8
+hypothetical protein 8
+Electron transfer flavoprotein subunit alpha 8
+hypothetical protein 8
+##############################
+Bin 24
+##############################
+2137
+##############################
+Number of expressed genes: 52 (2.8555738605161998%)
+Number of not expressed genes: 1769 (97.1444261394838%)
+putative L-asparaginase periplasmic 93
+30S ribosomal protein S1 21
+DNA-directed RNA polymerase subunit beta 4
+Bifunctional transcriptional activator/DNA repair enzyme AdaA 2
+Esterase FrsA 2
+hypothetical protein 2
+Proline--tRNA ligase 2
+Elongation factor Tu 2
+DNA-directed RNA polymerase subunit beta' 2
+NAD(P)H-quinone oxidoreductase subunit J 2
+Thioredoxin reductase 2
+Peptidyl-prolyl cis-trans isomerase A 2
+Foldase protein PrsA 1
+hypothetical protein 1
+Methionine--tRNA ligase 1
+Foldase protein PrsA 1 1
+Putative TrmH family tRNA/rRNA methyltransferase 1
+Tyrosine phenol-lyase 1
+60 kDa chaperonin 1
+Macrolide export protein MacA 1
+##############################
+2139
+##############################
+Number of expressed genes: 318 (17.462932454695224%)
+Number of not expressed genes: 1503 (82.53706754530478%)
+30S ribosomal protein S1 111
+putative L-asparaginase periplasmic 88
+hypothetical protein 37
+Multidrug resistance protein MdtA 33
+Alanine--tRNA ligase 28
+hypothetical protein 17
+Elongation factor Tu 15
+TonB-dependent receptor SusC 14
+Elongation factor G 13
+RNA polymerase sigma factor SigA 13
+Cell division protein ZapA 12
+Outer membrane porin F 11
+GDP-mannose 4%2C6-dehydratase 10
+Phosphoenolpyruvate carboxylase 9
+50S ribosomal protein L21 9
+hypothetical protein 8
+DNA-directed RNA polymerase subunit alpha 7
+Acyl carrier protein 6
+Outer membrane lipoprotein Blc 6
+DNA-binding protein HU 6
